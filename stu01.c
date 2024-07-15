@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 
 void MainUsage() {
 	printf("\n\nstu01 (c) Rafael Alvarez\n");
-	printf("\nUsage: tu01 target1 target2 ... targetn\n");
+	printf("\nUsage: stu01 target1 target2 ... targetn\n");
 	printf("\nWhere target can be:\n\n");
 	printf("scrush \t small crush (testu01)\n");
 	printf("mcrush \t medium crush (testu01)\n");
