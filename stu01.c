@@ -2,7 +2,7 @@
 
 	A TESTU01 tester ingesting data from stdin.
 
-	Rafael Alvarez (c) 2015
+	(c) Rafael Alvarez 
 
 */
 
@@ -17,7 +17,7 @@
 #include <time.h>
 
 
-//#include <unif01.h>
+#include <unif01.h>
 #include <bbattery.h>
 #include <sknuth.h>
 
@@ -79,10 +79,10 @@ void MainUsage() {
 	printf("\n\nstu01 (c) Rafael Alvarez\n");
 	printf("\nUsage: stu01 target1 target2 ... targetn\n");
 	printf("\nWhere target can be:\n\n");
-	printf("scrush \t small crush (testu01)\n");
-	printf("mcrush \t medium crush (testu01)\n");
-	printf("bcrush \t big crush (testu01)\n");
-	printf("rabbit \t rabbit (testu01)\n");
+	printf("scrush \t\t small crush (testu01)\n");
+	printf("mcrush \t\t medium crush (testu01)\n");
+	printf("bcrush \t\t big crush (testu01)\n");
+	printf("rabbit \t\t rabbit (testu01)\n");
 	printf("alphabit \t alphabit (testu01)\n");
 	printf("\n\n");
 	exit(1);
@@ -130,6 +130,6 @@ unsigned int gV;
 unsigned int GenP2()
 {
 	fread(&gV, 4, 1, stdin);
-	printf("%x\t", gV);
+	//printf("%x\t", gV);
 	return gV;
 }
